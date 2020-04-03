@@ -20,7 +20,7 @@ export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
 export OF_USE_NEW_MAGISKBOOT="1"
 export TARGET_ARCH="arm64"
 export TW_DEFAULT_LANGUAGE="en"
-export TW_DEVICE_VERSION="R10.1"
+export FOX_VERSION="R10.1"
 export USE_CCACHE="1"
 
 # lzma
