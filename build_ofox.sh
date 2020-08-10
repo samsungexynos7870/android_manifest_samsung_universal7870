@@ -38,6 +38,32 @@ export USE_CCACHE="1"
 # compile it
 for i in $*; do
     TARGET_DEVICE="$i"
+    case $TARGET_DEVICE in
+        a3y17lte)
+            export TARGET_DEVICE_ALT="a3y17lte, a3y17ltexc, a3y17ltexx, a3y17ltelk"
+        ;;
+        a6lte)
+            export TARGET_DEVICE_ALT="a6lte"
+        ;;
+        j5y17lte)
+            export TARGET_DEVICE_ALT="j5y17lte, j5y17ltexx, j5y17ltextc"
+        ;;
+        j6lte)
+            export TARGET_DEVICE_ALT="j6lte, j6ltecis, j6ltexx, j6lteub, j6lteins, j6ltedtvvj, j6ltekx, j6ltedx"
+        ;;
+        j7velte)
+            export TARGET_DEVICE_ALT="j7velte, j7veltedx, j7veltedd, j7veltekk"
+        ;;
+        j7xelte)
+            export TARGET_DEVICE_ALT="j7xelte, j7xeltexx, j7xeltekk, j7xeltedx, j7xelteub"
+        ;;
+        j7y17lte)
+            export TARGET_DEVICE_ALT="j7y17lte, j7y17ltexx, j7y17ltextc"
+        ;;
+        on7xelte)
+            export TARGET_DEVICE_ALT="on7xelte, on7xeltedd, on7xeltekl,on7xeltekk, on7xelteks, on7xelteub, on7xeltezt"
+        ;;
+    esac
     . build/envsetup.sh
     lunch omni_`echo $i`-eng
     mka recoveryimage -j`nproc`
