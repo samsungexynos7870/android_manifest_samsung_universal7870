@@ -6,26 +6,26 @@
     -->
 
     <!-- Remote -->
-    <remote fetch="https://gitlab.com/android_samsung_universal7870" name="universal7870" />
+    <remote fetch="https://github.com/samsungexynos7870" name="universal7870" />
 	
     <!-- Device -->
-    <project name="device/android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="universal7870" revision="skyhawk" />
 
-    <project name="device/android_device_samsung_a6lte" path="device/samsung/a6lte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_a6lte" path="device/samsung/a6lte" remote="universal7870" revision="skyhawk" />
 
-    <project name="device/android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" remote="universal7870" revision="skyhawk" />
 
-    <project name="device/android_device_samsung_j6lte" path="device/samsung/j6lte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_j6lte" path="device/samsung/j6lte" remote="universal7870" revision="skyhawk" />
 
-    <project name="device/android_device_samsung_j7velte" path="device/samsung/j7velte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_j7velte" path="device/samsung/j7velte" remote="universal7870" revision="skyhawk" />
 
-    <project name="device/android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_j7xelte" path="device/samsung/j7xelte" remote="universal7870" revision="skyhawk" />
 
-    <project name="device/android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" remote="universal7870" revision="skyhawk" />
 
-    <project name="device/android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="universal7870" revision="skyhawk" />
+    <project name="android_device_samsung_on7xelte" path="device/samsung/on7xelte" remote="universal7870" revision="skyhawk" />
 
     <!-- Kernel -->
-    <project name="common/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="universal7870" revision="skyhawk" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="universal7870" revision="skyhawk" />
 		
 </manifest>
